@@ -1,0 +1,21 @@
+{
+  "name":"alone-webman/come",
+  "type":"library",
+  "license":"MIT",
+  "version":"1.0.0",
+  "description":"webman中间件-输出内容",
+  "autoload":{
+    "psr-4":{
+      "AloneWebMan\\Come\\":"src"
+    },
+    "files":[
+      "function.php"
+    ]
+  },
+  "require":{
+    "php":">=8.0"
+  },
+  "require-dev":{
+    "workerman/webman-framework":"^2.1"
+  }
+}
